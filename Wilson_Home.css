@@ -1,0 +1,257 @@
+body {
+  font-family: 'Play', monospace;
+}
+h1 {
+  margin-left:70px;
+  margin-top:10px;
+  font-size: 27px;
+}
+h1 a {
+  color: black;
+}
+h1 a:hover {
+  color: gray;
+  text-decoration: none;
+}
+header {
+  background-color: #fff;
+  width: 100%;
+  z-index: 3;
+  top: 0;
+  right: 0;
+  left: 0;
+  justify-content: center;
+  position: fixed;
+  font-size: 14px;
+  border-bottom: 1px solid #000;
+}
+.home {
+  color: #4D00FF;
+}
+.space {
+  width: 100%;
+  height: 51px;
+}
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+.typewriter h2 {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .1em; /* Adjust as needed */
+  animation: 
+    typing 4s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+}
+.appear {
+  position: relative;
+}
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 87.25%;
+  height: 0;
+  transition: .5s ease;
+  margin-left: 25px;
+  margin-bottom: 50px;
+  opacity: 0.9;
+}
+
+.appear:hover .overlay {
+  height: 90.1%;
+}
+
+.text {
+  white-space: nowrap; 
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+.text2 a {
+   color: yellow;
+   
+}
+.btn.btn-primary {
+  margin-bottom: 0;
+  border-radius: 2px;
+  border: 0px;
+  color: #000;
+  text-shadow: none;
+  background-color: #ffffff;
+}
+.overlay2 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 0;
+  height: 91%;
+  transition: .5s ease;
+  margin-left: 25px;
+  margin-bottom: 50px;
+  opacity: 0.9;
+}
+.appear:hover .overlay2 {
+  width: 87.25%;
+}
+.overlay3 {
+  position: absolute;
+  bottom: 0;
+  left: 87.5%;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 0;
+  height: 81.75%;
+  transition: .5s ease;
+  margin-left: 25px;
+  margin-bottom: 50px;
+  opacity: 0.9;
+}
+.appear:hover .overlay3 {
+  width: 87.25%;
+  left: 0;
+}
+.text2 {
+  color: white;
+  font-size: 20px;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+.overlay4 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 91.25%;
+  width: 90.3%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+  margin-left: 25.25px;
+  margin-top: 10px;
+}
+.appear:hover .overlay4 {
+  opacity: 0.9;
+}
+.btn.btn-primary:hover {
+  color: #000;
+  background-color: #fbd1d5;
+}
+
+.btn-secondary {
+  background-color: #E8DFE0;
+  color: #000;
+  margin: 0 0 30px;
+}
+.framed {
+  display: block;
+  border-width: 10px 10px 30px 10px;
+  border-style: inset;
+  margin-bottom: 20px;
+  border-color: #ff3300;
+}
+strong {
+  color: #ff3300;
+}
+.overlay4 strong {
+  color: #fff;
+}
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:hover,
+.nav-pills > li.active > a:focus {
+  color: #fff !important;
+  background-color: #ff5323 !important;
+}
+.moveleft {
+  margin-right:70px;
+}
+.jumbotron {
+  overflow: hidden;
+}
+.dab {
+  display: flex;
+  align-items: center;
+  background-image: url('https://wallpaperstock.net/wallpapers/thumbs1/40051wide.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: #ffffff;
+  height: 370px;
+  text-shadow: 0.25px 0.25px 0.25px #000000;
+}
+
+.dab h2 {
+  font-size: 60px;
+  font-weight: 700;
+  margin: 0;
+  color: #000;
+}
+
+.dab h3 {
+  margin: 0 0 20px;
+  color: #000;
+}
+.interior {
+  width:600px;
+}
+.exterior {
+  margin-top:60px;
+}
+.dab2 {
+  display:flex;
+  align-items:center;
+  background-size:cover;
+  height:250px;
+  background-image: url('https://newevolutiondesigns.com/images/freebies/colorful-background-13.jpg');  
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.club21 {
+  font-size:21px;
+}
+.weight700 {
+  font-size:60px;
+  font-weight:700;
+}
+.club15 {
+  font-size:15px;
+}
+form {
+  margin-top: 40px;
+}
